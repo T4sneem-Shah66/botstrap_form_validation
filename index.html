@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Layout</title>
+  <!-- css link -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- <label for="">Email Address</label>
+      <input type="email" id="email_address" class="email_address" name="email_address" placeholder="Enter your email address"> -->
+    <!-- <form>
+
+      <div class="mb-3">
+        <label for="email1" class="form-label">Email address</label>
+        <input type="email" class="form-control email1" id="email1" name="email1" required>                          the disabled attribute can be written in :- disabled="disabled" or disabled="" or disabled-->
+      <!-- </div>
+
+
+      <div class="mb-3">
+        <label for="password1" class="form-label">Password</label>
+        <input type="password" class="form-control password1" id="password1" name="password1" required>
+      </div>
+
+
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input check1" id="check1" name="check1">
+        <label class="form-check-label" for="check1">Check me out</label>
+      </div>
+
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <input type="submit" value="Submit" class="btn btn-danger">
+
+
+    </form> --> 
+
+    <form class="row g-3 needs-validation" novalidate>
+
+      <!-- first name -->
+      <div class="col-md-6">
+        <label for="f_name" class="form-label">First name</label>
+        <input type="text" class="form-control f_name" id="f_name" name="f_name" placeholder="Enter your First Name" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+        <div class="invalid-feedback">
+          Enter your First Name
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <label for="l_name" class="form-label">Last name</label>
+        <input type="text" class="form-control l_name" id="l_name" name="l_name" placeholder="Enter your Lastt Name" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+        <div class="invalid-feedback">
+          Enter your Last Name
+        </div>
+      </div>
+
+
+      <div class="col-md-12">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" class="form-control email" id="email" name="email" placeholder="Enter your Email Address" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+        <div class="invalid-feedback">
+          Enter your Email Address
+        </div>
+      </div>
+
+
+      <!-- <div class="col-md-4">
+        <label for="validationCustomUsername" class="form-label">Username</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+          <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+          <div class="invalid-feedback">
+            Please choose a username.
+          </div>
+        </div>
+      </div> -->
+
+
+      <!-- <div class="col-md-6">
+        <label for="validationCustom03" class="form-label">City</label>
+        <input type="text" class="form-control" id="validationCustom03" required>
+        <div class="invalid-feedback">
+          Please provide a valid city.
+        </div>
+      </div>
+
+
+      <div class="col-md-3">
+        <label for="validationCustom04" class="form-label">State</label>
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select a valid state.
+        </div>
+      </div>
+
+
+      <div class="col-md-3">
+        <label for="validationCustom05" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="validationCustom05" required>
+        <div class="invalid-feedback">
+          Please provide a valid zip.
+        </div>
+      </div> -->
+
+
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            Agree to terms and conditions
+          </label>
+          <div class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </div>
+
+    </form>
+  </div>
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
